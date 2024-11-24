@@ -7,3 +7,7 @@
 /src/.webpack.js
 .psc-ide-port
 
+.direnv
+.parcel-cache
+.spago
+dist

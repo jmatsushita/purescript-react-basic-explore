@@ -1,11 +1,13 @@
 {
-  "name": "purescript-react-explore",
-  "files": [],
+  "name": "purescript-react-basic-explore",
   "scripts": {
-    "example": "pulp browserify --main Test.Main --to html/index.js"
+    "start": "spago bundle-module --main Test.Main --to html/index.js && parcel --no-hmr html/index.html"
   },
   "dependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "2.8.3"
   }
 }
